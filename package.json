@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "João Oliveira",
+    "url": "https://github.com/joaoliveirajs"
+  },
+  "scripts": {
+    "dev:start": "nodemon src/index.ts"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.3",
+    "@types/morgan": "^1.9.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
